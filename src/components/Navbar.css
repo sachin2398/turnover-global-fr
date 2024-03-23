@@ -1,0 +1,119 @@
+.navbar{
+    width: 100%;
+        height: 136px;
+        gap: 0px;
+        opacity: 0px;
+        background: #FFFFFF;
+      
+        display: flex;
+        flex-direction: column;
+}
+.navbar>.navbar-1 {
+    width: 100%;
+    height: 36px;
+    gap: 10px;
+    opacity: 0px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 0px;
+    align-items: center;
+    padding-right: 50px;
+     box-sizing: border-box;
+       
+}
+
+.navbar-1 >p  {
+  
+        height: 13px;
+        gap: 0px;
+        opacity: 0px;
+        
+       
+
+}
+.navbar-2{
+
+    width: "100%";
+    padding-left: -50px;
+    padding-right: -50px;
+     height:"64px";
+     display: flex;   
+     justify-content: space-between;
+     padding-bottom: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+     box-sizing: border-box;
+
+    
+}
+.navbar-2 > .heading{
+    display: flex;
+    align-items: center;
+}
+.navbar-2 > .link-tag {
+    display: flex;
+   
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+}
+
+.navbar-2>.link-tag > .title{
+    
+    text-decoration: none;
+font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.36px;
+    text-align: left;
+    color: #000000;
+}
+.navbar-2 > .icons-img{
+    display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap:50px;
+}
+.navbar-2> .icons-img > .icon-1{
+width: 19.53px;
+    height: 19.54px;
+    top: 6.2px;
+    left: 6.2px;
+    gap: 0px;
+    opacity: 0px;
+    color: #333333;
+
+}
+
+
+
+
+.navbar-3{
+  
+background: #F4F4F4;
+width: 100%;
+    height: 36px;
+    top: 100px;
+    gap: 0px;
+    opacity: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+
+ 
+
+}
+.navbar-3 >div{
+display: flex;
+gap: 10px;
+}
+.navbar-3 > div > p{
+    font-family: Inter;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 16.94px;
+        text-align: left;
+        color: #000000;
+}

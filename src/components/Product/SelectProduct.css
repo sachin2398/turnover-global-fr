@@ -1,0 +1,157 @@
+.main-product-body{
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+}
+.main-box-product {
+    width: 576px;
+    height: 658px;
+    gap: 0px;
+    border-radius: 20px;
+    border: 1px;
+    opacity: 0px;
+    border: 1px solid #C1C1C1;
+     background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 25px;
+}
+.div-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+    
+}
+.div-1> h2{
+    width: 421px;
+        height: 39px;
+        top: 254px;
+        left: 595px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Inter;
+            font-size: 32px;
+            font-weight: 600;
+            line-height: 38.73px;
+            text-align: center;
+            color: #000000;
+}
+.div-1>p{
+    width: 192px;
+        height: 26px;
+        top: 316px;
+        left: 709px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Inter;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 26px;
+            text-align: left;
+}
+.div-2{
+    display: flex;
+    flex-direction: column;
+    width:421px;
+    
+
+}
+.div-3{
+    display: flex;
+        flex-direction: column;
+        width: 421px;
+}
+.pagination {
+    margin-top: 10px;
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    width: 450px;
+}
+
+.pagination button {
+    background-color: transparent;
+    /* Remove background color */
+    border: none;
+    /* Remove border */
+    padding: 5px 10px;
+    /* Add padding */
+    cursor: pointer;
+    color: grey;
+    /* Set default text color */
+    font-size: 20px;
+    /* Set font size */
+    font-weight: 500;
+    /* Set font weight */
+    transition: color 0.3s;
+    /* Add transition for smooth color change */
+}
+
+.pagination button:hover,
+.pagination button:active {
+    color: black;
+    /* Change text color on hover or click */
+}
+
+.pagination button.active {
+    color: black;
+    /* Set text color for active button */
+}
+
+.pagination button:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+.product-item {
+    margin-bottom: 5px;
+    display: flex;
+    gap:20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.custom-checkbox{
+    appearance: none;
+    width: 24px;
+        height: 24px;
+        gap: 0px;
+        border-radius: 4px;
+        opacity: 0px;
+background-color: transparent;
+    background: #CCCCCC;
+   
+}
+.custom-checkbox:checked {
+    background-color: #000;
+    /* Change background color when checked */
+}
+
+.custom-checkbox:checked::after {
+    content: '\2713';
+    /* Tick symbol */
+    font-size:large;
+    position: relative;
+   
+    padding-left: 2px;
+    padding-bottom: 2px;
+    font-weight: bold;
+        /* Make the tick thicker */
+        text-align: center;
+    /* White tick color */
+    color:#FFFFFF;
+        /* White tick color */
+       
+        transform: translate(-40%, -50%);
+}
+.div-2>p{
+    width: 187px;
+     
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 26px;
+            text-align: left;
+}

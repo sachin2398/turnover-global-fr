@@ -1,0 +1,113 @@
+
+.otp{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+.otp-box{
+width: 576px;
+    height: 453px;
+    top: 176px;
+    left: 432px;
+    gap: 0px;
+    border-radius: 20px;
+    border: 1px;
+    opacity: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.otp-box>form {
+    width: 576px;
+    gap: 0px;
+    border-radius: 20px;
+    border: 1px solid #C1C1C1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.otp-box-title>p {
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38.73px;
+    text-align: center;
+}
+.otp-box-email-text{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.otp-input-container {
+width: 452px;
+    height: 74px;
+    top: 375px;
+    left: 494px;
+    gap: 0px;
+    border-radius: 6px;
+    border: 1px;
+    opacity: 0px;
+    /* Adjust gap between OTP input fields */
+}
+.otp-input-container{
+    display: flex;
+    flex-direction: column;
+}
+.box-otp-direction{
+    display: flex;
+    gap:10px
+}
+.otp-input-field{
+    width: 46px;
+        height: 48px;
+        top: 401px;
+        left: 842px;
+        gap: 0px;
+        border-radius: 6px;
+        border: 1px;
+        opacity: 0px;
+        border: 1px solid #C1C1C1;
+
+        text-align: center;
+}
+
+.otp-input-field>input {
+    width: 100%;
+    height: 48px;
+    border-radius: 6px;
+    border: 1px solid #C1C1C1;
+    text-align: center;
+}
+
+.otp-input-field>input::placeholder {
+    text-align: center;
+}
+
+.otp-box>form>button {
+    width: 456px;
+    height: 56px;
+padding:18px 148px ;
+    border-radius: 6px;
+    border: 1px solid #000000;
+    background-color: #000000;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.otp-box>form>.form-bottom {
+    display: flex;
+    justify-content: center;
+    gap: 12.5px;
+}
+
+.otp-box>form>.form-bottom>p:nth-child(2) {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.36px;
+    letter-spacing: 0.07em;
+    text-align: left;
+    color: #000000;
+}
